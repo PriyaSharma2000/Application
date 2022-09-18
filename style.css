@@ -1,0 +1,193 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-color: rgb(244, 200, 144);
+    height: 120vh;
+    /* width: 80vw; */
+}
+
+.header{
+    background-color: grey;
+    height: 10%;
+    text-align: center;
+    font-size: 30px;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    line-height: 80px;
+    word-spacing: 10px;
+}
+
+.option{
+    background-color: rgb(179, 178, 178);
+    width: 20%;
+    height: 90%;
+    position: fixed;
+    cursor: pointer;
+    font-size: 20px;
+    float: left;
+}
+
+#container{
+    padding-top: 190px;
+}
+
+#num1,#num2{
+    background-color: rgb(107, 48, 107);
+    height: 55px;
+    width: 9%;
+    font-size: 40px;
+}
+
+#operators{
+    font-size: 30px;
+    width: 90px;
+}
+
+.calc{
+    display: inline-block;
+    height: 85%;
+    width: 78%;
+    margin-left: 21rem;
+    margin-top: 40px;
+}
+
+.equal{
+    font-size: 40px;
+    margin: 5px;
+}
+
+.output{
+    font-size: 40px;
+    margin: 5px;
+}
+
+#option1:hover{
+    color: red;
+    line-height: 80px;
+    text-decoration: underline;
+}
+
+#option2:hover{
+    color: yellow;
+    line-height: 80px;
+    text-decoration: underline;
+}
+
+#option3:hover{
+    color: green;
+    line-height: 80px;
+    text-decoration: underline;
+}
+
+#option4:hover{
+    color: blueviolet;
+    line-height: 80px;
+    text-decoration: underline;
+}
+
+#option5:hover{
+    color: brown;
+    line-height: 80px;
+    text-decoration: underline;
+}
+
+#option1,#option2,#option3,#option4,#option5{
+    line-height: 60px;
+} 
+
+#wordalph{
+    display: flex;
+    margin-left: 450px;
+    padding-top: 40px;
+}
+
+.answer{
+    margin-left: 39rem;
+    border: solid 4px green;
+    height: 40px;
+    width: 70px;
+    margin-top: 4rem;
+}
+
+#lengthCalc{
+    font-size: 20px;
+    white-space: normal;
+    margin-top: 60px;
+}
+
+.lengthOutput{
+    margin-top: 50px;
+    margin-left: 35rem;
+    height: 200px;
+    overflow: scroll;
+    width: 200px;
+}
+
+#clearbtn{
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#alphabet{
+    margin-top: 100px;
+    height: 40px;
+    width: 70px;
+    margin-right: 50px;
+    border: 5px solid blueviolet;
+    font-size: 20px;
+}
+
+#word{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+table{
+    width: 300px;
+    border-collapse: collapse;
+}
+
+table , th , td{
+    border: 1px solid black;
+}
+
+th , td{
+    text-align: left;
+    padding: 10px;
+}
+
+#list1{
+    margin-right: 40rem;
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    margin-left: 50px;
+}
+
+#list2{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline;
+    margin-right: 90px;
+}
+
+#span1{
+    margin-right: 100px;
+}
+
+#fruit{
+    margin-right: 150px;
+    margin-top: 100px;
+    display: inline-table;
+}
+
+#veg{
+    display: inline-table;
+}
