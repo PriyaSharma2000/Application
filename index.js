@@ -45,6 +45,7 @@ option2.addEventListener("click", function () {
     if (lengthCalc.value == 0) {
       answer.innerHTML = 0;
       lengthCalc.value = lengthCalc.value.trim();
+      lengthOutput.innerHTML = 0;
     }
     var countOb = {};
     var string = [];
