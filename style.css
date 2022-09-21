@@ -97,12 +97,6 @@ body{
     line-height: 60px;
 } 
 
-#wordalph{
-    display: flex;
-    margin-left: 450px;
-    padding-top: 40px;
-}
-
 .answer{
     margin-left: 39rem;
     border: solid 4px green;
@@ -145,6 +139,7 @@ body{
     margin-left: 150px;
     margin-top: 50px;
     font-weight: bold;
+    margin-right: 12rem;
 }
 
 table{
